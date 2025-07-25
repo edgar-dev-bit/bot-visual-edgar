@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: bot-visual-edgar
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_final_v1.py
